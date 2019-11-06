@@ -24,7 +24,7 @@ app.use("/", express.static("./dist/SportsStore"));
 app.get('/*', function (req, res) {
     res.sendFile(path.join("./dist/SportsStore/index.html"));
 });
-app.listen(80,
+app.listen(process.env.PORT || 3000,
     () => console.log("HTTP Server running on port 80"));
 if (enableHttps) {
     https.createServer(ssloptions, app).listen(443,
