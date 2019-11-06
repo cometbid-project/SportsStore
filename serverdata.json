@@ -70,27 +70,27 @@
         "lines": [
           {
             "product": {
-              "id": 1,
-              "name": "Kayak",
-              "category": "Watersports",
-              "description": "A boat for one person",
-              "price": 275
+              "id": 3,
+              "name": "Soccer Ball",
+              "category": "Soccer",
+              "description": "FIFA-approved size and weight",
+              "price": 19.5
             },
             "quantity": 1
           },
           {
             "product": {
-              "id": 4,
-              "name": "Corner Flags",
-              "category": "Soccer",
-              "description": "Give your playing field a professional touch",
-              "price": 34.95
+              "id": 2,
+              "name": "Lifejacket",
+              "category": "Watersports",
+              "description": "Protective and fashionable",
+              "price": 48.95
             },
             "quantity": 1
           }
         ],
         "itemCount": 2,
-        "cartPrice": 309.95
+        "cartPrice": 68.45
       },
       "shipped": false,
       "name": "Adebowale Samuel",
@@ -99,24 +99,34 @@
       "state": "NS",
       "zip": "B3K 4X8",
       "country": "Canada",
-      "id": 1
+      "id": 3
     },
     {
       "cart": {
         "lines": [
           {
             "product": {
-              "id": 8,
-              "name": "Human Chess Board",
+              "id": 2,
+              "name": "Lifejacket",
+              "category": "Watersports",
+              "description": "Protective and fashionable",
+              "price": 48.95
+            },
+            "quantity": 1
+          },
+          {
+            "product": {
+              "id": 9,
+              "name": "Bling Bling King",
               "category": "Chess",
-              "description": "A fun game for the family",
-              "price": 75
+              "description": "Gold-plated, diamond-studded King",
+              "price": 1200
             },
             "quantity": 1
           }
         ],
-        "itemCount": 1,
-        "cartPrice": 75
+        "itemCount": 2,
+        "cartPrice": 1248.95
       },
       "shipped": false,
       "name": "Adebowale Samuel",
@@ -125,7 +135,43 @@
       "state": "NS",
       "zip": "B3K 4X8",
       "country": "Canada",
-      "id": 2
+      "id": 4
+    },
+    {
+      "cart": {
+        "lines": [
+          {
+            "product": {
+              "id": 2,
+              "name": "Lifejacket",
+              "category": "Watersports",
+              "description": "Protective and fashionable",
+              "price": 48.95
+            },
+            "quantity": 1
+          },
+          {
+            "product": {
+              "id": 5,
+              "name": "Stadium",
+              "category": "Soccer",
+              "description": "Flat-packed 35,000-seat stadium",
+              "price": 79500
+            },
+            "quantity": 1
+          }
+        ],
+        "itemCount": 2,
+        "cartPrice": 79548.95
+      },
+      "shipped": false,
+      "name": "Adebowale Mayowa",
+      "address": "3533 Strawberry Hill Street, Apartment 21",
+      "city": "Halifax",
+      "state": "NS",
+      "zip": "B3K 4X8",
+      "country": "Canada",
+      "id": 5
     }
   ]
 }

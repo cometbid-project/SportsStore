@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path")
 const https = require("https");
 const fs = require("fs");
 const history = require("connect-history-api-fallback");
@@ -19,6 +20,10 @@ app.use(auth);
 app.use("/api", router);
 app.use(history());
 app.use("/", express.static("./dist/SportsStore"));
+// Send all requests to index.html
+app.get('/*', function (req, res) {
+    res.sendFile(path.join("./dist/SportsStore/index.html"));
+});
 app.listen(80,
     () => console.log("HTTP Server running on port 80"));
 if (enableHttps) {
